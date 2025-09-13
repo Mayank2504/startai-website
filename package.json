@@ -1,0 +1,31 @@
+{
+  "name": "startai-website",
+  "version": "1.0.0",
+  "description": "Interactive multi-page web presentation for StartAI AI Education Startup business plan",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8080",
+    "build": "echo 'Static site - no build process required'",
+    "deploy": "echo 'Deploy to GitHub Pages manually or via GitHub Actions'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/startai-website.git"
+  },
+  "keywords": [
+    "education",
+    "ai",
+    "startup",
+    "business-plan",
+    "presentation"
+  ],
+  "author": "StartAI Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/startai-website/issues"
+  },
+  "homepage": "https://yourusername.github.io/startai-website",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StartAI - AI Education Startup Business Plan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com/3.4.0"></script>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="font-['Inter'] bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50" role="navigation" aria-label="Main navigation">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-xl font-bold text-blue-600">StartAI</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-600 transition-colors">Home</a>
+                    <a href="phases.html" class="text-gray-700 hover:text-blue-600 transition-colors">Phases</a>
+                    <a href="financials.html" class="text-gray-700 hover:text-blue-600 transition-colors">Financials</a>
+                    <a href="metrics.html" class="text-gray-700 hover:text-blue-600 transition-colors">Metrics</a>
+                    <a href="about.html" class="text-gray-700 hover:text-blue-600 transition-colors">About</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-blue-600" aria-label="Toggle mobile menu" aria-expanded="false">
+                        <i class="fas fa-bars" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <a href="index.html" class="block py-2 text-gray-700 hover:text-blue-600">Home</a>
+                <a href="phases.html" class="block py-2 text-gray-700 hover:text-blue-600">Phases</a>
+                <a href="financials.html" class="block py-2 text-gray-700 hover:text-blue-600">Financials</a>
+                <a href="metrics.html" class="block py-2 text-gray-700 hover:text-blue-600">Metrics</a>
+                <a href="about.html" class="block py-2 text-gray-700 hover:text-blue-600">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-blue-600 to-purple-700 text-white py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">StartAI</h1>
+                <p class="text-xl md:text-2xl mb-8">Revolutionizing Education Through Artificial Intelligence</p>
+                <a href="#executive-summary" class="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">Learn More</a>
+            </div>
+        </section>
+
+        <!-- Executive Summary -->
+        <section id="executive-summary" class="py-16 bg-white slide-in">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-center mb-12">Executive Summary</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Our Mission</h3>
+                        <p class="text-gray-600 mb-4">StartAI is dedicated to democratizing access to quality education through innovative AI-powered learning solutions. We believe that every individual deserves personalized, effective, and affordable education regardless of their location or background.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Market Opportunity</h3>
+                        <p class="text-gray-600 mb-4">The global edtech market is projected to reach $2.2 trillion by 2025, with AI-driven solutions representing the fastest-growing segment. StartAI positions itself at the forefront of this revolution.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2025 StartAI. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About StartAI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com/3.4.0"></script>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="font-['Inter'] bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-xl font-bold text-blue-600">StartAI</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-600 transition-colors">Home</a>
+                    <a href="phases.html" class="text-gray-700 hover:text-blue-600 transition-colors">Phases</a>
+                    <a href="financials.html" class="text-gray-700 hover:text-blue-600 transition-colors">Financials</a>
+                    <a href="metrics.html" class="text-gray-700 hover:text-blue-600 transition-colors">Metrics</a>
+                    <a href="about.html" class="text-gray-700 hover:text-blue-600 transition-colors">About</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-blue-600">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <a href="index.html" class="block py-2 text-gray-700 hover:text-blue-600">Home</a>
+                <a href="phases.html" class="block py-2 text-gray-700 hover:text-blue-600">Phases</a>
+                <a href="financials.html" class="block py-2 text-gray-700 hover:text-blue-600">Financials</a>
+                <a href="metrics.html" class="block py-2 text-gray-700 hover:text-blue-600">Metrics</a>
+                <a href="about.html" class="block py-2 text-gray-700 hover:text-blue-600">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Header -->
+        <section class="bg-gradient-to-r from-indigo-600 to-purple-700 text-white py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">About StartAI</h1>
+                <p class="text-xl">Our Story, Mission, and Vision for the Future of Education</p>
+            </div>
+        </section>
+
+        <!-- Mission & Vision -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div class="bg-blue-50 p-8 rounded-lg">
+                        <div class="text-4xl text-blue-600 mb-4"><i class="fas fa-bullseye"></i></div>
+                        <h2 class="text-3xl font-bold mb-4 text-blue-600">Our Mission</h2>
+                        <p class="text-gray-600 text-lg leading-relaxed">
+                            To democratize access to high-quality education worldwide through innovative AI-powered learning solutions.
+                            We believe that personalized, adaptive learning experiences should be available to everyone, regardless of their
+                            location, background, or socioeconomic status. By harnessing the power of artificial intelligence, we aim to
+                            create educational opportunities that are more effective, engaging, and accessible than ever before.
+                        </p>
+                    </div>
+                    <div class="bg-purple-50 p-8 rounded-lg">
+                        <div class="text-4xl text-purple-600 mb-4"><i class="fas fa-eye"></i></div>
+                        <h2 class="text-3xl font-bold mb-4 text-purple-600">Our Vision</h2>
+                        <p class="text-gray-600 text-lg leading-relaxed">
+                            To become the world's leading AI-driven education platform, empowering millions of learners to achieve their
+                            full potential. We envision a future where education is not limited by traditional constraints, but enhanced
+                            by intelligent systems that understand each learner's unique needs, pace, and learning style. Our goal is to
+                            bridge the global education gap and create a more equitable world through technology.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-center mb-12">Leadership Team</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div class="w-24 h-24 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-user text-3xl text-blue-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Dr. Sarah Chen</h3>
+                        <p class="text-blue-600 font-semibold mb-2">CEO & Co-Founder</p>
+                        <p class="text-gray-600 text-sm">Former AI Research Director at Stanford. PhD in Machine Learning with 15+ years in edtech innovation.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div class="w-24 h-24 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-user text-3xl text-green-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Michael Rodriguez</h3>
+                        <p class="text-green-600 font-semibold mb-2">CTO & Co-Founder</p>
+                        <p class="text-gray-600 text-sm">Ex-Google AI Engineer. Expert in scalable ML systems and educational technology platforms.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div class="w-24 h-24 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-user text-3xl text-purple-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Dr. Emily Watson</h3>
+                        <p class="text-purple-600 font-semibold mb-2">Chief Learning Officer</p>
+                        <p class="text-gray-600 text-sm">Educational psychologist with expertise in learning sciences and curriculum development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company Values -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-center mb-12">Our Values</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-lightbulb text-2xl text-blue-600"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Innovation</h3>
+                        <p class="text-gray-600 text-sm">Pushing the boundaries of what's possible in education through cutting-edge AI research.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-users text-2xl text-green-600"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Accessibility</h3>
+                        <p class="text-gray-600 text-sm">Ensuring quality education reaches every corner of the globe, regardless of barriers.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-balance-scale text-2xl text-purple-600"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Excellence</h3>
+                        <p class="text-gray-600 text-sm">Maintaining the highest standards in educational content and technological performance.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-heart text-2xl text-orange-600"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Empathy</h3>
+                        <p class="text-gray-600 text-sm">Understanding and addressing the unique needs of each learner with compassion.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Market Opportunity -->
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-center mb-12">Market Opportunity</h2>
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-6 text-blue-600">The Global EdTech Landscape</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                                    <span class="text-blue-600 font-bold text-sm">1</span>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Massive Market Size</p>
+                                    <p class="text-gray-600">Global edtech market projected to reach $2.2 trillion by 2025, with AI segment growing fastest.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                                    <span class="text-green-600 font-bold text-sm">2</span>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Education Gap</p>
+                                    <p class="text-gray-600">Over 260 million children worldwide are out of school, representing a $39 billion annual opportunity.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                                    <span class="text-purple-600 font-bold text-sm">3</span>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Digital Transformation</p>
+                                    <p class="text-gray-600">COVID-19 accelerated online learning adoption by 5 years, creating sustained demand for digital solutions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-6 text-green-600">Competitive Advantages</h3>
+                        <div class="space-y-4">
+                            <div class="bg-white p-4 rounded-lg shadow-sm">
+                                <h4 class="font-semibold text-blue-600 mb-2">Proprietary AI Technology</h4>
+                                <p class="text-gray-600 text-sm">Advanced machine learning algorithms that adapt in real-time to individual learning patterns.</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg shadow-sm">
+                                <h4 class="font-semibold text-green-600 mb-2">First-Mover Advantage</h4>
+                                <p class="text-gray-600 text-sm">Early entry into AI-powered personalized learning with established intellectual property.</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg shadow-sm">
+                                <h4 class="font-semibold text-purple-600 mb-2">Strategic Partnerships</h4>
+                                <p class="text-gray-600 text-sm">Collaborations with leading universities and educational institutions for content and validation.</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg shadow-sm">
+                                <h4 class="font-semibold text-orange-600 mb-2">Scalable Platform</h4>
+                                <p class="text-gray-600 text-sm">Cloud-native architecture designed for global scale from day one.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Considerations -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-center mb-12">Additional Considerations</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-blue-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-4 text-blue-600"><i class="fas fa-shield-alt mr-2"></i>Regulatory Compliance</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li>• GDPR and CCPA compliance for data protection</li>
+                            <li>• FERPA compliance for student privacy</li>
+                            <li>• Accessibility standards (WCAG 2.1 AA)</li>
+                            <li>• International education standards alignment</li>
+                            <li>• Regular security audits and certifications</li>
+                        </ul>
+                    </div>
+                    <div class="bg-green-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-4 text-green-600"><i class="fas fa-globe mr-2"></i>Global Expansion Strategy</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li>• Localized content for major markets</li>
+                            <li>• Multi-language platform support</li>
+                            <li>• Regional partnership development</li>
+                            <li>• Cultural adaptation of learning materials</li>
+                            <li>• Compliance with local education regulations</li>
+                        </ul>
+                    </div>
+                    <div class="bg-purple-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-4 text-purple-600"><i class="fas fa-handshake mr-2"></i>Partnership Ecosystem</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li>• University content partnerships</li>
+                            <li>• Corporate training programs</li>
+                            <li>• Government education initiatives</li>
+                            <li>• NGO collaborations for accessibility</li>
+                            <li>• Technology platform integrations</li>
+                        </ul>
+                    </div>
+                    <div class="bg-orange-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-4 text-orange-600"><i class="fas fa-chart-line mr-2"></i>Long-term Sustainability</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li>• Diversified revenue streams</li>
+                            <li>• Continuous R&D investment</li>
+                            <li>• Talent development programs</li>
+                            <li>• Environmental responsibility initiatives</li>
+                            <li>• Social impact measurement</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2025 StartAI. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
